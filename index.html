@@ -1,0 +1,364 @@
+<div class="wrapper">
+    <!DOCTYPE html>
+    <html lang="en">
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="css/style.min.css">
+    </head>
+    
+    <body>
+    
+        <header class="header">
+            <div class="container">
+    
+                <div class="header__inner">
+                    <a class="logo" href="#">
+                        <svg width="18rem" height="4rem">
+                            <use href="images/sprite.svg#logo"></use>
+                        </svg>
+                    </a>
+                    <div class="header__links">
+                        <a class="header__link" href="#">
+                            <svg width="8rem" height="3rem">
+                                <use href="images/sprite.svg#app-store"></use>
+                            </svg>
+                        </a>
+                        <a class="header__link" href="#">
+                            <svg width="9rem" height="3rem">
+                                <use href="images/sprite.svg#google-play"></use>
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="header__lang">
+                        <button onclick="changeLanguage('en')">EN</button>
+                        <button onclick="changeLanguage('es')">ES</button>
+                        <button onclick="changeLanguage('fr')">FR</button>
+                    </div>
+                </div>
+            </div>
+        </header>
+    
+        <main>
+            <div class="container">
+
+                <div class="baner">
+                    <div class="baner__inner">
+                        <p class="baner__text">
+                            Restaurateur? Join the Taster Platform and rapidly launch one of our iconic virtual restaurant brands from your existing
+                            kitchen!
+                        </p>
+                        <div class="baner__links">
+                            <a class="baner__btn" href="#">Become a partner</a>
+                            <a class="baner__btn" href="#">Learn more</a>
+                        </div>
+                    </div>
+                </div>
+
+                <section class="brands">
+                    <div class="brands__inner">
+                        <h1 class="brands__title">The best of street food at home</h1>
+                        <div class="brands__img">
+                            <picture>
+                                <source type="image/avif" srcset="images/brands-img.avif" />
+                                <source type="image/webp" srcset="images/brands-img.webp" />
+                                <img src="images/brangs-img.png">
+                            </picture>
+                        </div>
+                        <p class="brands__description">Taster is a collection of online restaurants dedicated to bringing the best of
+                            street food to you.</p>
+                        <a class="brands__button" href="#">Discover our brands</a>
+                    </div>
+                </section>
+
+                <div class="gallery">
+                    <div class="slider">
+                        <section class="gallery__item">
+                            <picture class="gallery__img">
+                                <source type="image/avif" srcset="images/gallery-1.avif" />
+                                <source type="image/webp" srcset="images/gallery-1.webp" />
+                                <img src="images/gallery-1.jpg">
+                            </picture>
+                        </section>
+                        <section class="gallery__item">
+                            <picture class="gallery__img">
+                                <source type="image/avif" srcset="images/gallery-2.avif" />
+                                <source type="image/webp" srcset="images/gallery-2.webp" />
+                                <img src="images/gallery-2.jpg">
+                            </picture>
+                        </section>
+                        <section class="gallery__item">
+                            <picture class="gallery__img">
+                                <source type="image/avif" srcset="images/gallery-3.avif" />
+                                <source type="image/webp" srcset="images/gallery-3.webp" />
+                                <img src="images/gallery-3.jpg">
+                            </picture>
+                        </section>
+                    </div>
+                </div>
+
+                <section class="stats">
+                    <h2 class="stats__title">Bitesize Stats</h2>
+                    <div class="stats__inner">
+                        <div class="stats__item">
+                            <picture class="stats__item-img">
+                                <source type="image/avif" srcset="images/stats-1.avif" />
+                                <source type="image/webp" srcset="images/stats-1.webp" />
+                                <img src="images/stats-1.png">
+                            </picture>
+                            <sup class="stats__item-number">4</sup>
+                            <p class="stats__item-title">Years</p>
+                        </div>
+                        <div class="stats__item">
+                            <picture class="stats__item-img">
+                                <source type="image/avif" srcset="images/stats-2.avif" />
+                                <source type="image/webp" srcset="images/stats-2.webp" />
+                                <img src="images/stats-2.png">
+                            </picture>
+                            <sup class="stats__item-number">425,364</sup>
+                            <p class="stats__item-title">Cheese Slices</p>
+                        </div>
+                        <div class="stats__item">
+                            <picture class="stats__item-img">
+                                <source type="image/avif" srcset="images/stats-3.avif" />
+                                <source type="image/webp" srcset="images/stats-3.webp" />
+                                <img src="images/stats-3.png">
+                            </picture>
+                            <sup class="stats__item-number">9.2 million</sup>
+                            <p class="stats__item-title">Sweet Potato Fries</p>
+                        </div>
+                        <div class="stats__item">
+                            <picture class="stats__item-img">
+                                <source type="image/avif" srcset="images/stats-4.avif" />
+                                <source type="image/webp" srcset="images/stats-4.webp" />
+                                <img src="images/stats-4.png">
+                            </picture>
+                            <sup class="stats__item-number">7,104 kms</sup>
+                            <p class="stats__item-title">of Noodles</p>
+                        </div>
+                        <div class="stats__item">
+                            <picture class="stats__item-img">
+                                <source type="image/avif" srcset="images/stats-5.avif" />
+                                <source type="image/webp" srcset="images/stats-5.webp" />
+                                <img src="images/stats-5.png">
+                            </picture>
+                            <sup class="stats__item-number">314,530</sup>
+                            <p class="stats__item-title">Tiger Prawns</p>
+                        </div>
+                        <div class="stats__item">
+                            <picture class="stats__item-img">
+                                <source type="image/avif" srcset="images/stats-6.avif" />
+                                <source type="image/webp" srcset="images/stats-6.webp" />
+                                <img src="images/stats-6.png">
+                            </picture>
+                            <sup class="stats__item-number">1,000,000+</sup>
+                            <p class="stats__item-title">Rides</p>
+                        </div>
+                    </div>
+                    <div class="stats-more">
+                        <div class="stats-more__item">
+                            100 Restaurants
+                        </div>
+                        <div class="stats-more__item">
+                            25 Cities
+                        </div>
+                        <div class="stats-more__item">
+                            5 Brands
+                        </div>
+                        <div class="stats-more__item">
+                            And More!
+                        </div>
+                    </div>
+                </section>
+            
+            </div>
+
+            </div>
+            <aside class="aside">
+                <nav class="menu">
+                    <ul class="menu__list">
+                        <li class="menu__item">
+                            <a class="menu__item-link" href="#">
+                                <p class="menu__item-text">Who we are</p>
+                            </a>
+                        </li>
+                        <li class="menu__item">
+                            <a class="menu__item-link" href="#">
+                                <p class="menu__item-text">Our brands</p>
+                            </a>
+                        </li>
+                        <li class="menu__item">
+                            <a class="menu__item-link" href="#">
+                                <p class="menu__item-text">Contact</p>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </aside>
+        </main>
+    
+    <footer class="footer container">
+    
+        <div class="footer__inner">
+    
+            <div class="footer__col restaurants">
+    
+                <h6 class="restaurants__title">Our restaurants</h6>
+    
+                <ul class="restaurants__list">
+    
+                    <li class="restaurants__item">
+    
+                        <a href="#" class="restaurants__link">Bian Dang</a>
+    
+                    </li>
+    
+                    <li class="restaurants__item">
+    
+                        <a href="#" class="restaurants__link">A Burgers</a>
+    
+                    </li>
+    
+                    <li class="restaurants__item">
+    
+                        <a href="#" class="restaurants__link">Mission Saigon</a>
+    
+                    </li>
+    
+                    <li class="restaurants__item">
+    
+                        <a href="#" class="restaurants__link">Out Fry</a>
+    
+                    </li>
+    
+                    <li class="restaurants__item">
+    
+                        <a href="#" class="restaurants__link">Stacksando</a>
+    
+                    </li>
+    
+                </ul>
+    
+            </div>
+    
+            <div class="footer__col">
+    
+                <div class="find-us">
+    
+                    <h6 class="find-us__title">Find us</h6>
+    
+                    <p class="find-us__text">
+    
+                        Address
+    
+                    </p>
+    
+                    <p class="find-us__text">
+    
+                        Sorry, we’re just a digital food court
+    
+                    </p>
+    
+                </div>
+    
+                <div class="order">
+    
+                    <h6 class="order__title">Order on</h6>
+    
+                    <ul class="order__list">
+    
+                        <li class="order__item">
+    
+                            <a href="#" class="order__link">Download on Android</a>
+    
+                        </li>
+    
+                        <li class="order__item">
+    
+                            <a href="#" class="order__link">Download on iOS</a>
+    
+                        </li>
+    
+                    </ul>
+    
+                </div>
+    
+            </div>
+    
+            <div class="footer__col corporate">
+    
+                <h6 class="corporate__title">Corporate</h6>
+    
+                <ul class="corporate__list">
+    
+                    <li class="corporate__item">
+    
+                        <a href="#" class="corporate__link">Contact</a>
+    
+                    </li>
+    
+                    <li class="corporate__item">
+    
+                        <a href="#" class="corporate__link">Our Story</a>
+    
+                    </li>
+    
+                    <li class="corporate__item">
+    
+                        <a href="#" class="corporate__link">Jobs</a>
+    
+                    </li>
+    
+                    <li class="corporate__item">
+    
+                        <a href="#" class="corporate__link">Support</a>
+    
+                    </li>
+    
+                </ul>
+    
+            </div>
+    
+            <div class="footer__col socials">
+    
+                <h6 class="socials__title">Socials</h6>
+    
+                <ul class="socials__list">
+    
+                    <li class="socials__item">
+    
+                        <a href="#" class="socials__link">Instagram</a>
+    
+                    </li>
+    
+                    <li class="socials__item">
+    
+                        <a href="#" class="socials__link">Facebook</a>
+    
+                    </li>
+    
+                </ul>
+    
+            </div>
+    
+        </div>
+    
+    </footer>
+    
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    
+    <script src="js/main.min.js" type="module"></script>
+    
+    </body>
+    
+    
+    
+    </html>
+</div>
